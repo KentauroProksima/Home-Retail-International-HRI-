@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Retail International (HRI)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="imgpsh_fullsize_anim.jpeg" alt="HRI Logo" class="logo">
+        <h1>Home Retail International (HRI)</h1>
+        <p>Siūlome lenkiškus butus lietuviams</p>
+    </header>
+
+    <section id="listings">
+        <h2>Objektai</h2>
+        <div class="listing">
+            <h3>Nr działki: 1711/2</h3>
+            <p>Powierzchnia działki: 0,0849 ha</p>
+            <p>Powierzchnia użytkowa budynku: 1331,83m2</p>
+            <p>Parter: powierzchnia handlowo usługowa 329,02m2</p>
+            <h4>1, 2, 3 Piętro</h4>
+            <p>18 mieszkań o powierzchni jak poniżej:</p>
+            <ul>
+                <li>1. 43,29 m2</li>
+                <li>2. 56,44 m2</li>
+                <li>3. 53,50 m2</li>
+                <li>4. 59,86 m2</li>
+                <li>5. 34,95 m2</li>
+                <li>6. 27,47 m2</li>
+                <li>7. 43,10 m2</li>
+                <li>8. 56,35 m2</li>
+                <li>9. 53,47 m2</li>
+                <li>10. 59,67 m2</li>
+                <li>11. 34,72 m2</li>
+                <li>12. 27,42 m2</li>
+                <li>13. 42,92 m2</li>
+                <li>14. 56,26 m2</li>
+                <li>15. 53,42 m2</li>
+                <li>16. 59,50 m2</li>
+                <li>17. 34,29 m2</li>
+                <li>18. 27,37 m2</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="plans">
+        <h2>Plany architektoniczne</h2>
+        <ul>
+            <li><a href="ARCHITEKTURA/A-PB-01 RZUT PIWNICY A2 420x594.pdf" target="_blank">A-PB-01 RZUT PIWNICY</a></li>
+            <li><a href="ARCHITEKTURA/A-PB-02 RZUT PARTERU A2.pdf" target="_blank">A-PB-02 RZUT PARTERU</a></li>
+            <li><a href="ARCHITEKTURA/A-PB-03 RZUT I PIETRA A2.pdf" target="_blank">A-PB-03 RZUT I PIETRA</a></li>
+            <li><a href="ARCHITEKTURA/A-PB-04 RZUT II PIETRA A2.pdf" target="_blank">A-PB-04 RZUT II PIETRA</a></li>
+            <li><a href="ARCHITEKTURA/A-PB-05 RZUT III PIETRA A2.pdf" target="_blank">A-PB-05 RZUT III PIETRA</a></li>
+            <li><a href="ARCHITEKTURA/A-PB-06 RZUT DACHU A2.pdf" target="_blank">A-PB-06 RZUT DACHU</a></li>
+            <li><a href="ARCHITEKTURA/A-PB-07 PRZEKROJE A-A i B-B 420x750.pdf" target="_blank">A-PB-07 PRZEKROJE A-A i B-B</a></li>
+            <li><a href="ARCHITEKTURA/A-PB-08 ELEWACJE 420x750.pdf" target="_blank">A-PB-08 ELEWACJE</a></li>
+            <li><a href="ARCHITEKTURA/BALUSTRADA NA OKNIE.docx" target="_blank">BALUSTRADA NA OKNIE</a></li>
+            <li><a href="ARCHITEKTURA/OPIS ARCH-BUD Chorzele.pdf" target="_blank">OPIS ARCH-BUD Chorzele</a></li>
+            <li><a href="ARCHITEKTURA/OPIS PZT - Chorzele.pdf" target="_blank">OPIS PZT - Chorzele</a></li>
+            <li><a href="ARCHITEKTURA/PZ-1 297x770.pdf" target="_blank">PZ-1</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Kontaktinė informacija: HouseRetailInt@gmail.com</p>
+        <p>Telefonas: +370 608 01344</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header .logo {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 10px 0 0;
+}
+
+#listings, #plans {
+    padding: 20px;
+}
+
+#listings h2, #plans h2 {
+    color: #333;
+    text-align: center;
+}
+
+.listing {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#plans ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#plans li {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
